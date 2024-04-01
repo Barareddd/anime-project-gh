@@ -24,8 +24,8 @@ function App() {
         path: "/favorites",
         element: <Favorites />,
       },
-    ]
-    // { basename: "/anime-project-gh/" }
+    ],
+    { basename: "/anime-project-gh/" }
   );
   return <RouterProvider router={router} />;
 }
