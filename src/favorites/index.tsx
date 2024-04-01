@@ -49,7 +49,7 @@ const Favorites = () => {
                 >
                   remove
                 </button>
-                <Link to={`detail/${anime.mal_id}`}>
+                <Link to={`/detail/${anime.mal_id}`}>
                   <img
                     src={anime.images.webp.large_image_url}
                     alt=""

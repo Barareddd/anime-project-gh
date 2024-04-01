@@ -24,16 +24,8 @@ function App() {
         path: "/favorites",
         element: <Favorites />,
       },
-      {
-        path: "/favorites/detail/:mal_id",
-        element: <Detail />,
-      },
-      {
-        path: "/seasons/detail/:mal_id",
-        element: <Detail />,
-      },
-    ],
-    { basename: "/anime-project-gh/" }
+    ]
+    // { basename: "/anime-project-gh/" }
   );
   return <RouterProvider router={router} />;
 }

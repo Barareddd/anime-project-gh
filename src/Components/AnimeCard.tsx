@@ -27,7 +27,7 @@ export function AnimeCard({ anime, saved }: AnimeCardProps) {
         {isSaved ? "Saved" : "Save"}
       </button>
 
-      <Link to={`detail/${anime.mal_id}`}>
+      <Link to={`/detail/${anime.mal_id}`}>
         <div className="h-[300px] ">
           <img
             src={anime.images.webp.large_image_url}
