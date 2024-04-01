@@ -46,7 +46,7 @@ const ReccomendAnime = () => {
     <div className="bg-[#E3E1D9] rounded-lg overflow-hidden text-blueGray-600 h-full">
       <div className="p-3 w-full text-center">
         <h1 className="text-xl">
-          Anime Reccomendations{" "}
+          Anime Recommendations{" "}
           <img
             src="https://www.svgrepo.com/show/506715/fire.svg"
             className="w-5 h-5 inline-block"

@@ -25,7 +25,7 @@ function App() {
         element: <Favorites />,
       },
     ],
-    { basename: "/anime-project-gh/" }
+    { basename: "/anime-project-gh/" } //github-pages
   );
   return <RouterProvider router={router} />;
 }
