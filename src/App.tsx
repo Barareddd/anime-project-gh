@@ -6,32 +6,35 @@ import Seasons from "./seasons";
 import Favorites from "./favorites";
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/detail/:mal_id",
-      element: <Detail />,
-    },
-    {
-      path: "/seasons",
-      element: <Seasons />,
-    },
-    {
-      path: "/favorites",
-      element: <Favorites />,
-    },
-    {
-      path: "/favorites/detail/:mal_id",
-      element: <Detail />,
-    },
-    {
-      path: "/seasons/detail/:mal_id",
-      element: <Detail />,
-    },
-  ]);
+  const router = createBrowserRouter(
+    [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/detail/:mal_id",
+        element: <Detail />,
+      },
+      {
+        path: "/seasons",
+        element: <Seasons />,
+      },
+      {
+        path: "/favorites",
+        element: <Favorites />,
+      },
+      {
+        path: "/favorites/detail/:mal_id",
+        element: <Detail />,
+      },
+      {
+        path: "/seasons/detail/:mal_id",
+        element: <Detail />,
+      },
+    ],
+    { basename: "/anime-project-gh/" }
+  );
   return <RouterProvider router={router} />;
 }
 
